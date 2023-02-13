@@ -23,6 +23,24 @@ public class RSANumbers {
             }
          });
         thread.start();
+        //intro message 
+        //i gotta start using text blocks more often
+        JOptionPane.showMessageDialog(null, """
+        When a credit card is sent through the internet, it must be protected
+        so that other people cannot see it. Many web browsers use a protection
+        system based in RSA numbers. A number is an RSA number if it has exactly
+        four divisors. In other words, there are exactly four numbers that 
+        divide evenly into it (meaning it would have no remainder). For example,
+        10 is an RSA number because it has exactly four divisors (1, 2, 5, and 10).
+        But, 12 is not an RSA number because it has to many divisors (1, 2,
+        3, 4, 6, and 12). Also 11 is not an RSA number. There is only one RSA
+        number in the range from 10...12. This is a program that takes user input
+        of a range of numbers (a starting number and an ending number) and then
+        counts how many numbers in that range are RSA numbers. Please contiain
+        the numbers within the range less than 100.""",     
+                "RSANumbers", 
+                JOptionPane.INFORMATION_MESSAGE);           
+            
         
         //my least fav part of every project is the UI
         //get the Min and Max
