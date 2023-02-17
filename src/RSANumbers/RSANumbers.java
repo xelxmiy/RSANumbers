@@ -42,10 +42,13 @@ public class RSANumbers {
                 JOptionPane.INFORMATION_MESSAGE);           
             
         
-        //my least fav part of every project is the UI
-        //get the Min and Max
-        //thanks WachCity code
-        //geting the lower limit
+/*      
+        this code was written before i found out that my user as going to obey
+        the rules
+        get the Min and Max
+        thanks WachCity code
+        geting the lower limit
+*/
         while(Min < 0) {
             try {
                 Min = Integer.parseInt(JOptionPane.showInputDialog(
